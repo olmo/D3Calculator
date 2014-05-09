@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clases">
+        <item>Barbarian</item>
+        <item>Demon Hunter</item>
+        <item>Monk</item>
+        <item>Witch Doctor</item>
+        <item>Wizard</item>
+    </string-array>
+    
+    <string-array name="clasesEn">
+        <item>Barbarian</item>
+        <item>Demon Hunter</item>
+        <item>Monk</item>
+        <item>Witch Doctor</item>
+        <item>Wizard</item>
+    </string-array>
+    
+    <string-array name="servidores">
+        <item>Americas</item>
+        <item>Europe</item>
+        <item>Korea</item>
+        <item>Taiwan</item>
+    </string-array>
+    
+    <string-array name="barbarian_pasivas">
+        <item>Pound of Flesh</item>
+        <item>Ruthless</item>
+        <item>Nerves Of Steel</item>
+        <item>Weapons Master - Swords/Daggers</item>
+        <item>Weapons Master - Maces/Axes</item>
+        <item>Weapons Master - Polearms/Spears</item>
+        <item>Inspiring Presence</item>
+        <item>Berserker Rage</item>
+        <item>Bloodthirst</item>
+        <item>Animosity</item>
+        <item>Tough as Nails</item>
+        <item>Superstition</item>
+        <item>No Escape</item>
+        <item>Relentless</item>
+        <item>Brawler</item>
+        <item>Juggernaut</item>
+        <item>Unforgiving</item>
+        <item>Boon of Bul-Kathos</item>
+        <item>Earthen Might</item>
+        <item>Sword and Board</item>
+        <item>Rampage</item>
+    </string-array>
+    
+    <string-array name="demon_hunter_pasivas">
+        <item>Thrill of the Hunt</item>
+        <item>Tactical Advantage</item>
+        <item>Vengeance</item>
+        <item>Steady Aim</item>
+        <item>Night Stalker</item>
+        <item>Cull the Weak</item>
+        <item>Brooding</item>
+        <item>Hot Pursuit</item>
+        <item>Archery - Bow</item>
+        <item>Archery - Crossbow</item>
+        <item>Archery - Hand Crossbow</item>
+        <item>Numbing Traps</item>
+        <item>Perectionist</item>
+        <item>Custom Engineering</item>
+        <item>Grenadier</item>
+        <item>Sharpshooter</item>
+        <item>Ballistics</item>
+        <item>Ambush</item>
+        <item>Awareness</item>
+        <item>Single Out</item>
+    </string-array>
+    
+    <string-array name="monk_pasivas">
+        <item>Resolve</item>
+        <item>Fleet Footed</item>
+        <item>Exalted Soul</item>
+        <item>Trascendence</item>
+        <item>Chant of Resonance</item>
+        <item>Seize the Initiative</item>
+        <item>The Guardian\'s Path</item>
+        <item>Sixth Sense</item>
+        <item>Pacifism</item>
+        <item>Beacon of Ytar</item>
+        <item>Guiding Light</item>
+        <item>One With Everything</item>
+        <item>Combination Strike</item>
+        <item>Near Death Experience</item>
+        <item>Unity</item>
+        <item>Momentum</item>
+        <item>Mythic Rhythm</item>
+    </string-array>
+    
+    <string-array name="wizard_pasivas">
+        <item>Power Hungry</item>
+        <item>Blur</item>
+        <item>Evocation</item>
+        <item>Glass Cannon</item>
+        <item>Prodigy</item>
+        <item>Astral Presence</item>
+        <item>Illusionist</item>
+        <item>Cold Blooded</item>
+        <item>Conflagration</item>
+        <item>Paralysis</item>
+        <item>Galvanizing Ward</item>
+        <item>Temporal Flux</item>
+        <item>Critical Mass</item>
+        <item>Arcane Dynamo</item>
+        <item>Unstable Anomaly</item>
+        <item>Unwavering Will</item>
+        <item>Audacity</item>
+        <item>Elemental Exposure</item>
+    </string-array>
+    
+    <string-array name="witch_doctor_pasivas">
+        <item>Circle of Life</item>
+        <item>Jungle Fortitude</item>
+        <item>Spiritual Attunement</item>
+        <item>Gruesome Feast</item>
+        <item>Bad Medicine</item>
+        <item>Blood Ritual</item>
+        <item>Zombie Handler</item>
+        <item>Pierce the Veil</item>
+        <item>Fetish Sycophants</item>
+        <item>Spirit Vessel</item>
+        <item>Rush of Essence</item>
+        <item>Vision Quest</item>
+        <item>Fierce Loyalty</item>
+        <item>Grave Injustice</item>
+        <item>Tribal Rites</item>
+        <item>Creeping Death</item>
+        <item>Physical Attunement</item>
+        <item>Midnight Feast</item>
+    </string-array>
+    
+    <string-array name="Objetos">
+        <item>Helm</item>
+        <item>Shoulders</item>
+        <item>Chest Armor</item>
+        <item>Gloves</item>
+        <item>Bracers</item>
+        <item>Belt</item>
+        <item>Pants</item>
+        <item>Boots</item>
+        <item>Neck</item>
+        <item>Finger R</item>
+        <item>Finger L</item>
+        <item>Hand R</item>
+        <item>Hand L</item>
+        <item>Set</item>
+    </string-array>
+    
+    <string-array name="Stats">
+        <item>Min Damage</item>
+        <item>Max Damage</item>
+        <item>Base Attack Speed</item>
+        <item>Armor</item>
+        <item>Strength</item>
+        <item>Dexterity</item>
+        <item>Intelligence</item>
+        <item>Vitality</item>
+        <item>Resistance</item>
+        <item>Life (%)</item>
+        <item>Critical Hit Chance (%)</item>
+        <item>Critical Hit Damage (%)</item>
+        <item>Attack Speed (%)</item>
+        <item>Physical Res</item>
+        <item>Cold Res</item>
+        <item>Fire Res</item>
+        <item>Lightning Res</item>
+        <item>Poison Res</item>
+        <item>Arcane Res</item>
+        <item>Life per Second</item>
+        <item>Life per Hit</item>
+        <item>Life Steal</item>
+        <item>Chance of Finding Magical</item>
+        <item>Extra Gold from Monsters</item>
+        <item>Arcane Damage (%)</item>
+        <item>Poison Damage (%)</item>
+        <item>Lightning Damage (%)</item>
+        <item>Holy Damage (%)</item>
+        <item>Cold Damage (%)</item>
+        <item>Fire Damage (%)</item>
+        <item>Elite Damage (%)</item>
+    </string-array>
+
+
+    <string-array name="StatsArray">
+        <item>%s Min damage</item>
+        <item>%s Max damage</item>
+        <item>%s Base speed</item>
+        <item>%s Armor</item>
+        <item>%s Strength</item>
+        <item>%s Dexterity</item>
+        <item>%s Intelligence</item>
+        <item>%s Vitality</item>
+        <item>%s Resistance to All Elements</item>
+        <item>%s Life</item>
+        <item>Critical Hit Chance Increased by %s%%</item>
+        <item>Critical Hit Damage Increased by %s%%</item>
+        <item>Attack Speed Increased by %s%%</item>
+        <item>%s Resistance to Physical Damage</item>
+        <item>%s Resistance to Cold</item>
+        <item>%s Resistance to Fire</item>
+        <item>%s Resistance to Lightning</item>
+        <item>%s Resistance to Poison</item>
+        <item>%s Resistance to Arcane</item>
+        <item>Regenerates %s Life per Second</item>
+        <item>Each Hit Adds %s Life</item>
+        <item>%s of Damage Dealt Is Converted to Life</item>
+        <item>%s Better Chance of Finding Magical Items</item>
+        <item>%s Extra Gold from Monsters</item>
+        <item>Arcane skills deal %s more damage.</item>
+        <item>Poison skills deal %s more damage.</item>
+        <item>Lightning skills deal %s more damage.</item>
+        <item>Holy skills deal %s more damage.</item>
+        <item>Cold skills deal %s more damage.</item>
+        <item>Fire skills deal %s more damage.</item>
+        <item>Increases damage against elites by %s%%</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+    <string-array name="barbarian_pasivasEn">
+        <item>poundofflesh</item>
+        <item>ruthless</item>
+        <item>nervesofsteel</item>
+        <item>weaponsmaster</item>
+        <item>inspiringpresence</item>
+        <item>berserkerrage</item>
+        <item>bloodthirst</item>
+        <item>animosity</item>
+        <item>toughasnails</item>
+        <item>superstition</item>
+        <item>noescape</item>
+        <item>relentless</item>
+        <item>brawler</item>
+        <item>juggernaut</item>
+        <item>unforgiving</item>
+        <item>boonofbulkathos</item>
+        <item>earthenmight</item>
+        <item>swordandboard</item>
+        <item>rampage</item>
+    </string-array>
+
+    <string-array name="crusader_pasivasEn">
+        <item>heavenlystrength</item>
+        <item>fervor</item>
+        <item>vigilant</item>
+        <item>righteousness</item>
+        <item>insurmountable</item>
+        <item>nephalemmajesty</item>
+        <item>indestructible</item>
+        <item>holycause</item>
+        <item>wrathful</item>
+        <item>divinefortress</item>
+        <item>lordcommander</item>
+        <item>holdyourground</item>
+        <item>longarmofthelaw</item>
+        <item>ironmaiden</item>
+        <item>renewal</item>
+        <item>finery</item>
+        <item>blunt</item>
+        <item>toweringshield</item>
+    </string-array>
+    
+    <string-array name="demonhunter_pasivasEn">
+        <item>thrillofthehunt</item>
+        <item>tacticaladvantage</item>
+        <item>vengeance</item>
+        <item>steadyaim</item>
+        <item>nightstalker</item>
+        <item>culltheweak</item>
+        <item>brooding</item>
+        <item>hotpursuit</item>
+        <item>archery</item>
+        <item>numbingtraps</item>
+        <item>perfectionist</item>
+        <item>customengineering</item>
+        <item>grenadier</item>
+        <item>sharpshooter</item>
+        <item>ballistics</item>
+        <item>ambush</item>
+        <item>awareness</item>
+        <item>singleout</item>
+    </string-array>
+    
+    <string-array name="monk_pasivasEn">
+        <item>resolve</item>
+        <item>fleetfooted</item>
+        <item>exaltedsoul</item>
+        <item>transcendence</item>
+        <item>chantofresonance</item>
+        <item>seizetheinitiative</item>
+        <item>theguardianspath</item>
+        <item>sixthsense</item>
+        <item>pacifism</item>
+        <item>beaconofytar</item>
+        <item>guidinglight</item>
+        <item>onewitheverything</item>
+        <item>combinationstrike</item>
+        <item>neardeathexperience</item>
+        <item>unity</item>
+        <item>momentum</item>
+        <item>mythicrhythm</item>
+    </string-array>
+    
+    <string-array name="wizard_pasivasEn">
+        <item>powerhungry</item>
+        <item>blur</item>
+        <item>evocation</item>
+        <item>glasscannon</item>
+        <item>prodigy</item>
+        <item>astralpresence</item>
+        <item>illusionist</item>
+        <item>coldblooded</item>
+        <item>conflagration</item>
+        <item>paralysis</item>
+        <item>galvanizingward</item>
+        <item>temporalflux</item>
+        <item>dominance</item>
+        <item>arcanedynamo</item>
+        <item>unstableanomaly</item>
+        <item>unwaveringwill</item>
+        <item>audacity</item>
+        <item>elementalexposure</item>
+    </string-array>
+    
+    <string-array name="witchdoctor_pasivasEn">
+        <item>circleoflife</item>
+        <item>junglefortitude</item>
+        <item>spiritualattunement</item>
+        <item>gruesomefeast</item>
+        <item>badmedicine</item>
+        <item>bloodritual</item>
+        <item>zombiehandler</item>
+        <item>piercetheveil</item>
+        <item>fetishsycophants</item>
+        <item>spiritvessel</item>
+        <item>rushofessence</item>
+        <item>visionquest</item>
+        <item>fierceloyalty</item>
+        <item>graveinjustice</item>
+        <item>tribalrites</item>
+        <item>creepingdeath</item>
+        <item>physicalattunement</item>
+        <item>midnightfeast</item>
+    </string-array>
+    
+</resources>

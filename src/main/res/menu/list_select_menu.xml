@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/up"
+        android:title="up"
+        android:icon="@drawable/ic_action_previous_item"
+        android:showAsAction="always" />
+    <item android:id="@+id/down"
+        android:title="down"
+        android:icon="@drawable/ic_action_next_item"
+        android:showAsAction="always" />
+    <item android:id="@+id/delete"
+        android:title="delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="always" />
+</menu>

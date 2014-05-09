@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card"
+    android:textAlignment="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thunderfury, Blessed Blade of the Windseeker"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:singleLine="false"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity="center_horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageBackground"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/unique_helm_103_x1_demonhunter_male"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageBackground"
+            android:layout_alignEnd="@+id/imageBackground"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/imageBackground"
+            android:layout_alignParentEnd="false"
+            android:layout_alignStart="@id/imageBackground" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="0dp"
+            android:id="@+id/imageSocket"
+            android:src="@drawable/socket"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/imageGem"
+            android:src="@drawable/diamond_17_demonhunter_male"
+            android:scaleType="fitCenter"
+            android:layout_alignBottom="@+id/imageSocket"
+            android:layout_alignStart="@id/imageSocket"
+            android:layout_alignTop="@+id/imageSocket"
+            android:layout_alignLeft="@+id/imageSocket"
+            android:layout_alignRight="@+id/imageSocket"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="33dp"
+            android:id="@+id/imageSocket2"
+            android:src="@drawable/socket"
+            android:layout_below="@+id/imageSocket"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/imageGem2"
+            android:src="@drawable/diamond_17_demonhunter_male"
+            android:scaleType="fitCenter"
+            android:layout_alignBottom="@+id/imageSocket2"
+            android:layout_alignStart="@id/imageSocket2"
+            android:layout_alignTop="@+id/imageSocket2"
+            android:layout_alignLeft="@+id/imageSocket2"
+            android:layout_alignRight="@+id/imageSocket2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="33dp"
+            android:id="@+id/imageSocket3"
+            android:src="@drawable/socket"
+            android:layout_below="@+id/imageSocket2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/imageGem3"
+            android:src="@drawable/diamond_17_demonhunter_male"
+            android:scaleType="fitCenter"
+            android:layout_alignBottom="@+id/imageSocket3"
+            android:layout_alignStart="@id/imageSocket3"
+            android:layout_alignTop="@+id/imageSocket3"
+            android:layout_alignLeft="@+id/imageSocket3"
+            android:layout_alignRight="@+id/imageSocket3"/>
+
+
+        <LinearLayout
+            android:id="@+id/stats"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/stat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/stat9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <LinearLayout
+                android:id="@+id/linearGem1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:id="@+id/imageTextGem1"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textGem1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearGem2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:id="@+id/imageTextGem2"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textGem2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearGem3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:id="@+id/imageTextGem3"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textGem3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
